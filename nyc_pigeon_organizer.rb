@@ -1,4 +1,5 @@
 def nyc_pigeon_organizer(data)
+  # Create a new hash to store pigeons as keys
   new_pigeons = {}
   data.each_pair do |pair|
     pair[1].each_pair do |key, value|
